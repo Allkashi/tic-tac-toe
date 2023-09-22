@@ -76,6 +76,7 @@ function restartGame()
 {
   currentValue.value = 'X';
   txt.value = 'Move: ';
+  isEnable.value = false;
   matrixMove.value = [
     [' ', ' ', ' '],
     [' ', ' ', ' '],
